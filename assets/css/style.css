@@ -40,7 +40,6 @@ button:hover {
 }
 
 #start {
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -96,7 +95,6 @@ button:hover {
 }
 
 #done {
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -117,7 +115,6 @@ button:hover {
 }
 
 #try-again {
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
