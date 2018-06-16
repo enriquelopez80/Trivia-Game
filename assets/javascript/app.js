@@ -1,5 +1,7 @@
 $(document).ready(function () {
 
+    //trivia radio buttons and function
+
     let correct = 0;
     let wrong = 0;
     let unanswered = 0;
@@ -23,7 +25,6 @@ $(document).ready(function () {
             wrong++;
         }
 
-
         if (q2 === 'c') {
             correct++;
         } else if (q2 === undefined) {
@@ -31,7 +32,6 @@ $(document).ready(function () {
         } else {
             wrong++;
         }
-
 
         if (q3 === 'c') {
             correct++;
@@ -41,7 +41,6 @@ $(document).ready(function () {
             wrong++;
         }
 
-
         if (q4 === 'c') {
             correct++;
         } else if (q4 === undefined) {
@@ -49,7 +48,6 @@ $(document).ready(function () {
         } else {
             wrong++;
         }
-
 
         if (q5 === 'b') {
             correct++;
@@ -59,7 +57,6 @@ $(document).ready(function () {
             wrong++;
         }
 
-
         if (q6 === 'a') {
             correct++;
         } else if (q6 === undefined) {
@@ -68,7 +65,6 @@ $(document).ready(function () {
             wrong++;
         }
 
-
         if (q7 === 'c') {
             correct++;
         } else if (q7 === undefined) {
@@ -76,7 +72,6 @@ $(document).ready(function () {
         } else {
             wrong++;
         }
-
 
         if (q8 === 'd') {
             correct++;
@@ -162,6 +157,5 @@ $(document).ready(function () {
         $('.numWrong').text('Wrong Answers: ' + wrong);
         $('.numUnanswered').text('Unanswered: ' + unanswered);
     }
-
 
 })
