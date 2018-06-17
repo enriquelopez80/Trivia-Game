@@ -19,7 +19,7 @@ $(document).ready(function () {
 
         if (q1 === 'a') {
             correct++;
-        } else if (q1 === '') {
+        } else if (q1 === undefined) {
             unanswered++;
         } else {
             wrong++;
@@ -27,7 +27,7 @@ $(document).ready(function () {
 
         if (q2 === 'c') {
             correct++;
-        } else if (q2 === '') {
+        } else if (q2 === undefined) {
             unanswered++;
         } else {
             wrong++;
@@ -35,7 +35,7 @@ $(document).ready(function () {
 
         if (q3 === 'c') {
             correct++;
-        } else if (q3 === '') {
+        } else if (q3 === undefined) {
             unanswered++;
         } else {
             wrong++;
@@ -43,7 +43,7 @@ $(document).ready(function () {
 
         if (q4 === 'c') {
             correct++;
-        } else if (q4 === '') {
+        } else if (q4 === undefined) {
             unanswered++;
         } else {
             wrong++;
@@ -51,7 +51,7 @@ $(document).ready(function () {
 
         if (q5 === 'b') {
             correct++;
-        } else if (q5 === '') {
+        } else if (q5 === undefined) {
             unanswered++;
         } else {
             wrong++;
@@ -59,7 +59,7 @@ $(document).ready(function () {
 
         if (q6 === 'a') {
             correct++;
-        } else if (q6 === '') {
+        } else if (q6 === undefined) {
             unanswered++;
         } else {
             wrong++;
@@ -67,7 +67,7 @@ $(document).ready(function () {
 
         if (q7 === 'c') {
             correct++;
-        } else if (q7 === '') {
+        } else if (q7 === undefined) {
             unanswered++;
         } else {
             wrong++;
@@ -75,7 +75,7 @@ $(document).ready(function () {
 
         if (q8 === 'd') {
             correct++;
-        } else if (q8 === '') {
+        } else if (q8 === undefined) {
             unanswered++;
         } else {
             wrong++;
