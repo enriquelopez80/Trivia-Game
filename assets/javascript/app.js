@@ -83,7 +83,7 @@ $(document).ready(function () {
 
     }
 
-    //start game function
+    //start trivia function
 
     function startTrivia() {
         $('#start').hide();
@@ -92,6 +92,7 @@ $(document).ready(function () {
     }
 
     //timer function
+
     let counter = 60;
     let time;
 
@@ -120,14 +121,14 @@ $(document).ready(function () {
         $('#trivia').hide();
         $('#done').hide();
     }
-    //Start game
+    //Start trivia
 
     $('#start').click(function () {
         startTrivia();
         timer();
     });
 
-    //End game
+    //End trivia
 
     $('#done').click(function () {
         resultsPage()
